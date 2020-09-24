@@ -1,9 +1,10 @@
-Distillation BERT (from transformers) with RNN. Scored with $f_1$.
+Distillation **BERT** (from transformers library) with **RNN**. Scored with <img src="https://latex.codecogs.com/gif.latex?f_1" title="f_1" /></a>.
+
 All experiments were conducted on [RuSentiment dataset](https://github.com/strawberrypie/rusentiment/).
 
-Just run 'distillation.ipynb' :) (GPU is highly recommended)
+**How to run the code?** Just run *distillation.ipynb* (the repository *.py* modules must be in the same directory). GPU is highly recommended ;)
 
-Files description:
+**Files description**
 * classification_dataset.py -- instance of torch.utils.data.Dataset with pretrained BERT tokenizer (used for teacher training)
 * bert.py -- BERT model for sequence classification (teacher)
 * bpe_tokenizer.py -- BPE tokens for student model
